@@ -1,0 +1,203 @@
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Om}{Sood}{ \\
+\href{mailto:omsood1205@gmail.com} {omsood1205@gmail.com} |
+\href{https://wa.me/9711}{+91-9711355512} |
+{Delhi, India} \\
+\href{https://www.linkedin.com/in/sood-om12}{LinkedIn} | 
+\href{https://leetcode.com/SD_Om12}{LeetCode} |
+\href{https://github.com/0m12s}{GitHub} |
+\href{https://x.com/0m_1205s}{X} 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.32\textwidth} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{Vivekananda Institute \\ Of Professional Studies}
+\descript{B.Tech in IIoT}
+\location{June 2025 | Delhi, India }
+\location{ Cum. GPA: 8.511 (till 7th sem) }
+\sectionsep
+
+\subsection{Prestige Convent School}
+\descript{Senior Secondary (PCM)}
+\location{June 2020 | Delhi, India}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{\textbf{Links}} 
+%href{https://www.linkedin.com/in/sood-om12}{\textbf{\textit{LinkedIn}}} \\ 
+%\href{https://leetcode.com/SD_Om12}{\textbf{\textit{LeetCode}}} \\
+%\href{https://github.com/0m12s}{\textbf{\textit{GitHub}}} \\
+%\href{https://x.com/0m_1205s}{\textbf{\textit{X}}} \\
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\section{Coursework}
+\subsection{Undergraduate}
+Data Structures \\
+Object Oriented Programming \\
+Software Engineering + Practicum \\
+Web Programming \\
+Computer Networks \\
+Database Management System\\
+Cryptography \& Network Security
+\sectionsep
+\subsection{Additional}
+Programming In 'C'\\
+Machine Learning \\
+Data Science\\
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\textbf{Skills}}
+\subsection{Programming Languages} \textbullet{Java} \textbullet{Python (Basics)} \textbullet{C++}
+\sectionsep
+\subsection{Web Technologies} \textbullet{Spring Boot} \textbullet{HTML} \textbullet{CSS} \textbullet{React}\textbullet{JavaScript}
+\sectionsep
+\subsection{Databases} \textbullet{MongoDB} \textbullet{MySQL}
+\sectionsep
+\subsection{Tools \& Technologies:} \textbullet{Git}\textbullet{GitHub}\textbullet{Kubernetes}\textbullet{Docker}\textbullet{System Design}
+\sectionsep
+\subsection{Proficient In} \textbullet{JUnit}
+\textbullet{ Machine Learning}\textbullet{AI} \textbullet{IIoT}
+
+
+%% \location{Programming Languages}
+%%\textbullet{Java} \textbullet{Python (Basics)} \textbullet{C++} \\
+%\location{Web Technologies} 
+   
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Hobbies
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Interests }
+{Coding Competitions} \textbullet{Continuous Learning}\textbullet{Exploring Emerging Technologies} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.67\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{To-Do List App | Java, Spring Boot}\\
+\location{\textit{June 2024}}
+\vspace{2 ex} % Adds space above the section title
+\begin{tightemize}
+\item Designed a task management app with categorization, priorities, and deadlines, increasing task completion efficiency by 25\%.
+\item Orchestrated RESTful APIs for task operations, resulting in a 50\% reduction in response time.
+\item Executed a comprehensive user authentication framework that fortified task data privacy, achieving a secure environment for over 10 users and enhancing trust in data handling practices within the organization.
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{Personal Finance Tracker | Java, Spring Boot}\\
+\location{\textit{April 2024}}
+\begin{tightemize}
+\item Engineered a CRUD application to manage income, expenses, and budgets, enhancing user financial tracking by 40\%.
+\item Established secure user authentication, reducing unauthorized access by 95\%.
+\item Optimized data storage using Spring Data JPA, improving query performance by 30\%.
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{IntelliSolve: Smart Sudoku Puzzle Solver | Java} \\
+\location{February 2024}
+\begin{tightemize}
+%%\item Built a Sudoku solver using backtracking, solving complex puzzles in under 2 seconds.
+\item Engineered an innovative Java-based Sudoku solver employing systematic backtracking techniques; maintained flawless validation checks while achieving average solve times under two seconds per intricate puzzle configuration presented during development phase.
+\item Designed and executed an efficient Sudoku solving program in Java that applied arrays and hash sets for data integrity, achieving a flawless accuracy rate of 100\% in under 2 seconds on challenging puzzle scenarios.
+%\item Applied arrays and hash sets for board validation, achieving puzzle solutions in under 2 seconds for complex configurations while ensuring all board validations were completed with 100\% accuracy.
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{Non-Invasive GlucoMeter (SIH) | Embedded C++}\\
+\location{\textit{September 2023}}
+\begin{tightemize}
+\item Developed a non-invasive glucometer using infrared (IR) technology, providing real-time glucose monitoring without the need for blood samples.
+\item Implemented precise algorithms for accurate NIR-based glucose readings, achieving over 90\% accuracy.
+\item Optimized data processing and sensor calibration, reducing latency and improving user experience.
+\item Created a user-friendly interface for data visualization, ensuring clear and accessible health insights.
+\end{tightemize}
+\sectionsep
+
+%\runsubsection{Travel Agency Software |  }\textit{\textbf{Practicum | HTML, CSS}}\\
+%\location{\textit{April 2023}} 
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+%\begin{tightemize}
+%\item Upgraded booking and mobile functionality, improving agent efficiency by 15\% .
+%\item Created streamlined interactive designs that improved agent workflow efficiency by reducing time spent on bookings from four minutes to just two  minutes per transaction using targeted layout optimizations.
+%\end{tightemize}
+%\sectionsep 
+%\vspace{-2ex} % Adds space above the section title
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Achievement
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements}
+\subsection{Certificate of Excellence in DSA and System Design }\textbullet{Coding Blocks (Hackerblocks) Awarded to the top 3\% of participants for exceptional skills in Data Structures and System Design at Coding Blocks.}
+\sectionsep
+
+
+\subsection{Elite Certificate in Java Programming}
+\textbullet{Achieved a score of 70\% in the NPTEL certification course offered by IIT (Kharagpur), demonstrating advanced proficiency in Java programming.}
+
+%\sectionsep
+%\subsection{Winner of Web Development Competition}
+%\textbullet{\textit{Winner of Web Development Competition:} Earned first place for outstanding web design at school-level competition.}
+\end{minipage} 
+\end{document}  \documentclass[]{article}
+
+
