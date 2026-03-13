@@ -5,7 +5,9 @@ Refer to the resume- professionally formatted using Overleaf- here for a detaile
 
 ## Resume Preview
 
-<img src="resume_preview.png" width="500"/>
+<p align="center">
+  <img src="resume_preview.png" width="500"/>
+</p>
 
 ---
 
