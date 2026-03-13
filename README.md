@@ -11,9 +11,9 @@ Refer to the resume- professionally formatted using Overleaf- here for a detaile
 
 ## Download Resume
 
-You can download the latest version of my resume here:
+📄 [View Resume](Om_Resume.pdf)
 
-**PDF:** [Download Resume](./Om_Resume.pdf)
+⬇️ [Download Resume](https://raw.githubusercontent.com/0m12s/RESUME/main/Om_Resume.pdf)
 
 ---
 
