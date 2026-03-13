@@ -1,0 +1,174 @@
+\documentclass[]{resume-openfont}
+
+\pagestyle{fancy}
+\resetHeaderAndFooter
+
+%--------------------------------------------------------------
+% Convenience command - make it easy to fill template
+
+% Create job position command. Parameters: company, position, location, when
+\newcommand{\resumeHeading}[4]{\runsubsection{\uppercase{#1}}\descript{ | #2}\hfill\location{#3 | #4}\fakeNewLine}
+
+% Create education heading. Parameters: Name, degree, location, when
+\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3 | #4}\\
+\descript{#2}\fakeNewLine}
+
+% Create project heading. Parameters: Name, link, Tech stack
+\newcommand{\projectHeading}[3]{\Project{#1}{#2}
+\descript{#3}\\}
+
+\newcommand{\projectHeadingWithDate}[4]{\Project{#1}{#2}
+\descript{#3 | #4}\\}
+
+% Parameters: courses
+\newcommand{\courseWork}[1]{\textbf{Coursework:} #1}
+
+% Parameters: courses
+\newcommand{\teacherAssistant}[1]{\textbf{Teacher Assistant (TA):} #1}
+ 
+%--------------------------------------------------------------
+\begin{document}
+
+%--------------------------------------------------------------
+%     Profile
+%--------------------------------------------------------------
+\newcommand{\yourName}{Om Sood}
+
+\newcommand{\yourEmail}{omsood.w@gmail.com}
+\newcommand{\yourPhone}{+91-9711355512}
+
+\newcommand{\linkedInUserName}{omsood}
+\newcommand{\githubUserName}{0m12s}
+\newcommand{\leetcodeUserName}{SD\_Om12}
+\newcommand{\xUserName}{0m\_1205s}
+
+
+\begin{center}
+    \Huge \scshape \latoRegular{\yourName} \\ \vspace{1pt}
+
+    \small
+    \href{mailto:\yourEmail}{\underline{\yourEmail}} \ $|$
+    \yourPhone \ $|$
+    Delhi, India \\
+    \href{https://www.linkedin.com/in/omsood}{\underline{LinkedIn}} \ $|$
+    \href{https://leetcode.com/SD_Om12}{\underline{LeetCode}} \ $|$
+    \href{https://github.com/0m12s}{\underline{GitHub}} \ $|$
+    \href{https://om-folio.vercel.app}{\underline{Portfolio}}   \ $|$
+ \href{https://x.com/0m_1205s}{\underline{X}} 
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% Education %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+\vspace{0mm}
+\hrule
+\vspace{2mm}
+\educationHeading{Vivekananda Institute of Professional Studies}{B.Tech in Internet of Things \hfill{CGPA: 8.66}} {Delhi, India}{May 2025}
+\par\vspace{2mm}
+\educationHeading{Prestige Convent School}{Senior Secondary (PCM)} {Delhi, India}{April 2020}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% COURSEWORK %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Coursework}
+\vspace{0mm}
+\hrule
+\vspace{3mm}
+\textbf{Core CS:} Data Structures, Design and Analysis of Algorithms, Object Oriented Programming, DBMS, Computer Networks, Software Engineering, Computer Organization \& Architecture, Cryptography \& Network Security.
+
+\vspace{1mm}
+\textbf{AI / Data \& IoT:} Data Science, Principles of Artificial Intelligence, Machine Learning.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% PROJECTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Projects}
+\vspace{0mm}
+\hrule
+\vspace{3mm}
+\runsubsection{Fusion2048}
+\descript{| Java, Spring Boot, PostgreSQL, JWT | \href{https://github.com/0m12s/Fusion2048}{ Source Code $\nearrow$}}
+\vspace{-2mm}
+\begin{itemize}\itemsep -2pt
+\item Engineered a full-stack web application using \textbf{Spring Boot} and \textbf{PostgreSQL}, exposing REST APIs to persist game state and user scores.
+\item Implemented \textbf{stateless authentication} using \textbf{JWT + BCrypt} with a custom security filter chain in Spring Security.
+\item Designed a layered backend architecture (\textbf{Controller->Service->Repository}) using \textbf{Spring Data JPA / Hibernate} for scalable data access.
+\end{itemize}
+
+\runsubsection{Directly}
+\descript{| Java, Spring Boot, HTML, CSS, JavaScript, PostgreSQL | \href{https://github.com/0m12s/Directly}{ Source Code $\nearrow$}}
+\vspace{-2mm}
+\begin{itemize}\itemsep -2pt
+\item Built a \textbf{secure real-time chat application} using \textbf{Java, Spring Boot, and PostgreSQL}, developing \textbf{6+ REST APIs} for authentication and messaging services.
+\item Implemented \textbf{Spring Security + JWT} for \textbf{stateless authentication}, securing \textbf{100\% of protected endpoints}.
+\item Optimized \textbf{JPA/Hibernate queries and PostgreSQL indexing}, reducing message retrieval latency by \textbf{20--30 ms}.
+\end{itemize}
+
+\runsubsection{SplitEase}
+\descript{| Java, Spring Boot, PostgreSQL, JavaScript | \href{https://github.com/0m12s/SplitEase}{ Source Code $\nearrow$}}
+\vspace{-2mm}
+\begin{itemize}\itemsep-2pt
+  \item Designed backend architecture for SplitEase using Spring Boot, REST APIs, and PostgreSQL, enabling automated \textbf{group expense tracking, settlement logic, and transaction handling}.
+  \item Improved query efficiency and service-layer processing, reducing average API response latency by \textbf{~10--20 ms}, while integrating a \textbf{Vanilla JavaScript, HTML, and CSS frontend} for collaborative expense management.
+\end{itemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% SKILLS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-3mm}
+\section{Skills}
+\vspace{0mm}
+\hrule
+\vspace{3mm}
+\begin{skillList}
+    \singleItem{Programming Languages:}{Java, C++}
+    \\
+    \singleItem{Backend \& Web Development:}{Spring Boot, JavaScript, React, HTML, CSS}
+    \\
+    \singleItem{Databases:}{MySQL, MongoDB}
+    \\
+    \singleItem{Development \& Testing:}{Git, GitHub, Docker, CI/CD, JUnit}
+    \\
+    \singleItem{Core CS \& Specialization:}{Object-Oriented Programming (OOP), Low-Level Design, SDLC (Agile), AIML}
+\end{skillList}
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% ACHIVEMENTS %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Achievements}
+\vspace{0mm}
+\hrule
+\vspace{3mm}
+\begin{itemize}\itemsep-2pt
+
+  \item \textbf{Excellence in Data Structures and Algorithms} --- Coding Blocks \\
+  Awarded to the top \textbf{3\%} of participants for exceptional skills in Data Structures and System Design.
+  
+  \item \textbf{Elite Certificate in Java Programming} --- NPTEL (IIT Kharagpur) \\
+  Achieved a score of \textbf{70\%} in the NPTEL certification course, demonstrating strong proficiency in Java programming.
+\end{itemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% Technical Interests %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Interests}
+\vspace{0mm}
+\hrule
+\vspace{3mm}
+\textbullet{}Competitive Programming \textbullet{}Backend Development \textbullet{} System Design \textbullet{} Distributed Systems 
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
