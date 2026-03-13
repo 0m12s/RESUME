@@ -13,7 +13,7 @@ Refer to the resume- professionally formatted using Overleaf- here for a detaile
 
 You can download the latest version of my resume here:
 
-**PDF:** [Download Resume](./resume.pdf)
+**PDF:** [Download Resume](./Om_Resume.pdf)
 
 ---
 
@@ -22,21 +22,14 @@ You can download the latest version of my resume here:
 ```
 resume/
 │
-├── resume.tex            # Main LaTeX resume file
-├── resume.pdf            # Compiled resume
-├── resume-preview.png    # Preview image used in README
+├── latex-source/
+│   ├── resume.tex
+│   └── deedy-resume.cls
 │
-├── sections/             # Resume sections
-│   ├── education.tex
-│   ├── projects.tex
-│   ├── experience.tex
-│   └── skills.tex
-│
-└── template/             # Resume template files
-    └── deedy-resume.cls
+├── Om_Resume.pdf
+├── resume-preview.png
+└── README.md
 ```
-
----
 
 ## Technologies Used
 
